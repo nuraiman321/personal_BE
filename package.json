@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx directus init",
-    "start": "npx directus start"
+    "build": "next build",   // ✅ Correct for Next.js
+  "dev": "next dev",
+  "start": "next start"
   },
   "keywords": [],
   "author": "",
